@@ -71,3 +71,6 @@ JS/segunApi/app/Http/Middleware/TrustProxies.php
 JS/segunApi/app/Http/Middleware/TrustHosts.php
 JS/segunApi/app/Http/Middleware/TrimStrings.php
 JS/segunApi/app/Http/Middleware/RedirectIfAuthenticated.php
+trabajo/
+trabajo2/
+trabajito/
