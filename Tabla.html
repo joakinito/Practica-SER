@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabla de Elementos</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+    <script defer src="JS\nav.js"></script>
+    <script defer src="JS\Configuracion.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+   
+    <script src="JS/script.js"></script>
+    <link rel="stylesheet" href="/CSS/tabla.css">
+  </head>
+
+  <body>
+    <header></header>
+    <div class="loader">
+      <div class="spinner"></div>
+      <p>Cargando...</p>
+
+    </div>
+
+    <form method="post" action="#">
+      <h1>Tabla de Elementos</h1>
+      <input type="text" id="filtrar" />
+
+      <table border="3">
+        <tr>
+          <th>Id</th>
+          <th>Nombre</th>
+          <th>Descripcion</th>
+          <th>serie</th>
+          <th>estado</th>
+          <th>prioridad</th>
+          <th>acciones</th>
+        </tr>
+        <tbody id="tablaBody"></tbody>
+      </table>
+
+      <form id="formularioEditar" >
+        <label for="id">id:</label>
+        <input type="text" id="id" /><br /><br />
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" /><br /><br />
+        <label for="descripcion">Descripción:</label>
+        <input type="text" id="descripcion" /><br /><br />
+        <label for="numSerie">Número de Serie:</label>
+        <input type="text" id="numSerie" /><br /><br />
+        <label for="estado">Estado:</label>
+        <input type="text" id="estado" /><br /><br />
+        <label for="prioridad">Prioridad:</label>
+        <input type="text" id="prioridad" /><br /><br />
+        <input type="button" id="guardarBtn" value="Guardar" />
+      </form>
+      
+      </div>
+      
+  </body>
+</html>

@@ -1,0 +1,21 @@
+
+header {
+    background-color: black;
+    padding: 10px 0;
+    text-align: center; 
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px; 
+    margin: 0 10px; 
+    display: inline-block;
+
+    font-size: 20px; 
+  }
+  
+  
+  a.active {
+    background-color: rgb(255, 0, 0);
+  }

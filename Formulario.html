@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de Elementos</title>
+
+    <script defer src="JS/nav.js"></script>
+    <script defer src="JS/promesas.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  </head>
+
+  <body>
+    <header></header>
+
+    <h1>Formulario de Elementos</h1>
+
+    <form id="miFormulario" action="#" method="POST">
+      <label for="nombre_elemento">Nombre del Elemento:</label><br />
+      <textarea id="nombre_elemento" name="nombre_elemento"></textarea>
+      <br /><br />
+
+      <label for="descripcion_elemento">Descripción del Elemento:</label><br />
+      <textarea
+        id="descripcion_elemento"
+        name="descripcion_elemento"
+        rows="4"
+        cols="50"
+        required
+      ></textarea>
+      ><br /><br />
+
+      <label for="numero_serie">Numero serie:</label><br />
+      <textarea id="numero_serie" name="numero_serie"></textarea>
+      <br /><br />
+
+      <label for="estado">estado:</label><br />
+      <textarea id="estado" name="estado"></textarea>
+      <br /><br />
+
+      <label for="prioridad">Prioridad:</label><br />
+      <input
+        id="prioridad_alta"
+        type="radio"
+        name="prioridad_alta"
+        value="alta"
+        required
+      />
+      <label for="prioridad_media">Alta</label><br />
+      <input
+        id="prioridad_media"
+        type="radio"
+        name="prioridad_media"
+        value="media"
+      />
+      <label for="prioridad_media">Media</label><br />
+      <input
+        id="prioridad_baja"
+        type="radio"
+        name="prioridad_baja"
+        value="baja"
+      />
+      <label for="prioridad_baja">Baja</label><br /><br />
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>

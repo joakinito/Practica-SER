@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../Documents/GitHub/Tomorrowland"
+		},
+		{
+			"path": "../../../Diseño/tailwind"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Tomorrowland"
+	}
+}

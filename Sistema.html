@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Control de Máquinas Industriales</title>
+    <script defer src="JS/nav.js"></script>
+  </head>
+
+  <body>
+    <header></header>
+    <h1>Control de Máquinas Industriales</h1>
+    <form action="#" method="post">
+      <label for="nombre_maquina">Nombre de la Máquina:</label>
+      <input
+        type="text"
+        id="nombre_maquina"
+        name="nombre_maquina"
+        required
+      /><br /><br />
+
+      <label for="codigo_maquina">Código de la Máquina:</label>
+      <input
+        type="text"
+        id="codigo_maquina"
+        name="codigo_maquina"
+        required
+      /><br /><br />
+
+      <h2>Estado de la Máquina:</h2>
+      <label for="encendido">Encendido:</label>
+      <input
+        type="radio"
+        id="encendido"
+        name="estado_maquina"
+        value="encendido"
+        required
+      />
+
+      <label for="apagado">Apagado:</label>
+      <input
+        type="radio"
+        id="apagado"
+        name="estado_maquina"
+        value="apagado"
+        required
+      /><br /><br />
+
+      <h2>Control del Aire Acondicionado:</h2>
+      <input type="radio" name="estado_aire" value="activo" required />
+      <label for="estado_activo_aire">Encender Aire</label><br />
+      <input type="radio" name="estado_aire" value="inactivo" />
+      <label for="estado_inactivo_aire">Apagar Aire</label><br /><br />
+
+      <h2>Control de Luces:</h2>
+      <input type="radio" name="estado_luces" value="activo" required />
+      <label for="estado_activo_luces">Activar Luces</label><br />
+      <input type="radio" name="estado_luces" value="inactivo" />
+      <label for="estado_inactivo_luces">Desactivar Luces</label><br /><br />
+
+      <h2>Control de Alarma:</h2>
+      <input type="radio" name="estado_alarma" value="activo" required />
+      <label for="estado_activo_alarma">Activar Alarma</label><br />
+      <input type="radio" name="estado_alarma" value="inactivo" />
+      <label for="estado_inactivo_alarma">Desactivar Alarma</label><br /><br />
+
+      <h2>Control de DRS:</h2>
+      <input type="radio" name="estado_drs" value="activo" required />
+      <label for="estado_activo_drs">Activar DRS</label><br />
+      <input type="radio" name="estado_drs" value="inactivo" />
+      <label for="estado_inactivo_drs">Desactivar DRS</label><br /><br />
+      <input type="button" value="Aplicar" />
+    </form>
+  </body>
+</html>

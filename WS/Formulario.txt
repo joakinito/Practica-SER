@@ -1,0 +1,1 @@
+[{"nombre_elemento":"VNW","descripcion_elemento":"VOSJN273","numero_serie":"6789","estado":"activo","prioridad":"alta"},{"nombre_elemento":"VNW","descripcion_elemento":"VOSJN273","numero_serie":"6789","estado":"activo","prioridad":"alta"},{"nombre_elemento":"d","descripcion_elemento":"d","numero_serie":"d","estado":"activo","prioridad":"alta"}]
